@@ -5,16 +5,16 @@
 
 Eu o criei para mostrar meus conhecimentos em Swift escolhi a estrutura MVVM de inicio eu ainda não implementei testes unitários e nem libs para melhorar o desempenho do aplicativo na estrutura escolhida, mas isso está nos planos, o tempo de execução vai variar do meu tempo livre.
 
-## O que fazer após o download do codigo
-
-###### Requisitos 
+## Requisitos 
 
 Antes de começar certifique que possui esses itens:
 
 - Ter a ultima versão oficial do XCode;
 - Ter CocoaPods instalado na ultima versão disponivel;
 
-## Passo 1
+## O que fazer após o download do codigo
+
+### Passo 1
 
 Rode o comando para instalar as dependencias:
 
@@ -23,7 +23,7 @@ pod install
 
 ```
 
-## Passo 2
+### Passo 2
 
 Abra a pasta do projeto no Finder e abra o arquivo **Pautas\ Control.xcworkspace** ou 
 digite o comando abaixo:
