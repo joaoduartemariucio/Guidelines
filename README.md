@@ -12,7 +12,17 @@ Antes de começar certifique que possui esses itens:
 - Ter a ultima versão oficial do XCode;
 - Ter CocoaPods instalado na ultima versão disponivel;
 
-## O que fazer após o download do codigo
+## Bibliotecas usadas
+
+- Firebase Analytics
+- Firebase Auth
+- Firebase Firestore
+- Firebase Firestore Swift
+- MaterialComponents
+- NVActivityIndicatorView'
+
+
+## O que fazer após o download do código
 
 ### Passo 1
 
