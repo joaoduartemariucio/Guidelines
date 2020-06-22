@@ -45,7 +45,7 @@
 		CCB3EC75247745C10040D43D /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC74247745C10040D43D /* Constans.swift */; };
 		CCB3EC7824776CD50040D43D /* EsqueceuSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC7724776CD50040D43D /* EsqueceuSenhaViewController.swift */; };
 		CCB3EC7A24776E070040D43D /* EsqueceuSenhaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC7924776E070040D43D /* EsqueceuSenhaViewModel.swift */; };
-		CCB7C56524A16E0500AF61D4 /* READ.md in Resources */ = {isa = PBXBuildFile; fileRef = CCB7C56424A16E0500AF61D4 /* READ.md */; };
+		CCB7C56524A16E0500AF61D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCB7C56424A16E0500AF61D4 /* README.md */; };
 		CCBD112024797551000D590F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD111F24797551000D590F /* UIFont+Extensions.swift */; };
 		CCBD112224799BA9000D590F /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD112124799BA9000D590F /* UILabel+Extensions.swift */; };
 		CCBD11282479A542000D590F /* PautaItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD11272479A542000D590F /* PautaItemViewModel.swift */; };
@@ -136,7 +136,7 @@
 		CCB3EC762477558C0040D43D /* Pautas Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pautas Control.entitlements"; sourceTree = "<group>"; };
 		CCB3EC7724776CD50040D43D /* EsqueceuSenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueceuSenhaViewController.swift; sourceTree = "<group>"; };
 		CCB3EC7924776E070040D43D /* EsqueceuSenhaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueceuSenhaViewModel.swift; sourceTree = "<group>"; };
-		CCB7C56424A16E0500AF61D4 /* READ.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = READ.md; sourceTree = "<group>"; };
+		CCB7C56424A16E0500AF61D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCBD111F24797551000D590F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		CCBD112124799BA9000D590F /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		CCBD11272479A542000D590F /* PautaItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautaItemViewModel.swift; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 				CCB33741247189B90093D52B /* Products */,
 				4BF2E957A7D4CADBE2AEAB98 /* Pods */,
 				6B9DBBC530F17F4C43DCDDBD /* Frameworks */,
-				CCB7C56424A16E0500AF61D4 /* READ.md */,
+				CCB7C56424A16E0500AF61D4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -548,7 +548,7 @@
 				CCB33753247189BA0093D52B /* LaunchScreen.storyboard in Resources */,
 				CCB3EC70247744B90040D43D /* Localizable.strings in Resources */,
 				CCB33750247189BA0093D52B /* Assets.xcassets in Resources */,
-				CCB7C56524A16E0500AF61D4 /* READ.md in Resources */,
+				CCB7C56524A16E0500AF61D4 /* README.md in Resources */,
 				CCB3377E24718DF40093D52B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

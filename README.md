@@ -1,4 +1,4 @@
-# Pautas Control
+# Guidelines
 
 
 ## Um pouco sobre a criação desse projeto 
