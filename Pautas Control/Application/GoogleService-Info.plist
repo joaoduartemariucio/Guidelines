@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>459568409801-h3d8tuqsojdg39gn4p8qb6i9bebnfop2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.459568409801-h3d8tuqsojdg39gn4p8qb6i9bebnfop2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBga3-cKJaqc-kouy-I9bBxvBpBjg7s8ac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>459568409801</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.joaoduarte.pautas.control.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>pautas-control</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pautas-control.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:459568409801:ios:f3d440e04c8fa31ef4f118</string>
+	<key>DATABASE_URL</key>
+	<string>https://pautas-control.firebaseio.com</string>
+</dict>
+</plist>

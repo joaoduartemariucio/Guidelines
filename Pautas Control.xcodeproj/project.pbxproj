@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C5D2E1148B957A7F2455ECB /* Pods_Pautas_Control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4828A589BB22EC3CFB21DE /* Pods_Pautas_Control.framework */; };
+		A45F9EAD3CE73DD19E887C03 /* Pods_Pautas_ControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B427B1FA14B46ABECC9FA9 /* Pods_Pautas_ControlTests.framework */; };
+		CC1EBEE32473371E00E21B9C /* InicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEE22473371E00E21B9C /* InicialViewController.swift */; };
+		CC1EBEE5247338BE00E21B9C /* Pauta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEE4247338BE00E21B9C /* Pauta.swift */; };
+		CC1EBEEB247339B900E21B9C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEEA247339B900E21B9C /* ProfileViewModel.swift */; };
+		CC1EBEED24733BB000E21B9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEEC24733BB000E21B9C /* ProfileViewController.swift */; };
+		CC1EBEEF24733BBD00E21B9C /* PautasAbertasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEEE24733BBD00E21B9C /* PautasAbertasViewController.swift */; };
+		CC1EBEF124733BCB00E21B9C /* PautasFechadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEF024733BCB00E21B9C /* PautasFechadasViewController.swift */; };
+		CC1EBEF32473548000E21B9C /* PautaListaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEF22473548000E21B9C /* PautaListaViewModel.swift */; };
+		CC1EBEF5247356D400E21B9C /* PautasViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEF4247356D400E21B9C /* PautasViewCell.swift */; };
+		CC1EBEF82473620B00E21B9C /* AuthFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEF72473620B00E21B9C /* AuthFirebase.swift */; };
+		CC1EBEFC247362FA00E21B9C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EBEFB247362FA00E21B9C /* Login.swift */; };
+		CC8275EF2471EFF600F4DD97 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8275EE2471EFF600F4DD97 /* UITextField+Extensions.swift */; };
+		CC8275F12471F5A700F4DD97 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8275F02471F5A700F4DD97 /* LoginViewModel.swift */; };
+		CC8275F32471FF7800F4DD97 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8275F22471FF7800F4DD97 /* String+Extensions.swift */; };
+		CCB33744247189B90093D52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB33743247189B90093D52B /* AppDelegate.swift */; };
+		CCB3374E247189B90093D52B /* Pautas_Control.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCB3374C247189B90093D52B /* Pautas_Control.xcdatamodeld */; };
+		CCB33750247189BA0093D52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB3374F247189BA0093D52B /* Assets.xcassets */; };
+		CCB33753247189BA0093D52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB33751247189BA0093D52B /* LaunchScreen.storyboard */; };
+		CCB3375E247189BB0093D52B /* Pautas_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3375D247189BB0093D52B /* Pautas_ControlTests.swift */; };
+		CCB33769247189BB0093D52B /* Pautas_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB33768247189BB0093D52B /* Pautas_ControlUITests.swift */; };
+		CCB3377E24718DF40093D52B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB3377D24718DF40093D52B /* GoogleService-Info.plist */; };
+		CCB337822471B2E60093D52B /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337812471B2E60093D52B /* Cadastro.swift */; };
+		CCB337882471B6F20093D52B /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337872471B6F20093D52B /* CadastroViewController.swift */; };
+		CCB3378A2471B7B90093D52B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337892471B7B90093D52B /* LoginViewController.swift */; };
+		CCB3378D2471B9C40093D52B /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3378C2471B9C40093D52B /* BindingTextField.swift */; };
+		CCB3378F2471BB120093D52B /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3378E2471BB120093D52B /* CadastroViewModel.swift */; };
+		CCB337912471BBDB0093D52B /* BrokenRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337902471BBDB0093D52B /* BrokenRules.swift */; };
+		CCB337932471BC450093D52B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337922471BC450093D52B /* ViewModel.swift */; };
+		CCB337972471BD920093D52B /* DynamicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337962471BD920093D52B /* DynamicTypes.swift */; };
+		CCB337992471CEF20093D52B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB337982471CEF20093D52B /* UIColor+Extension.swift */; };
+		CCB3379B2471D6CB0093D52B /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3379A2471D6CB0093D52B /* UINavigationController+Extensions.swift */; };
+		CCB3379D2471D91F0093D52B /* ItemTextFieldFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3379C2471D91F0093D52B /* ItemTextFieldFormulario.swift */; };
+		CCB3EC6E247744870040D43D /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC6D247744870040D43D /* Translate.swift */; };
+		CCB3EC70247744B90040D43D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB3EC72247744B90040D43D /* Localizable.strings */; };
+		CCB3EC75247745C10040D43D /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC74247745C10040D43D /* Constans.swift */; };
+		CCB3EC7824776CD50040D43D /* EsqueceuSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC7724776CD50040D43D /* EsqueceuSenhaViewController.swift */; };
+		CCB3EC7A24776E070040D43D /* EsqueceuSenhaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3EC7924776E070040D43D /* EsqueceuSenhaViewModel.swift */; };
+		CCBD112024797551000D590F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD111F24797551000D590F /* UIFont+Extensions.swift */; };
+		CCBD112224799BA9000D590F /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD112124799BA9000D590F /* UILabel+Extensions.swift */; };
+		CCBD11282479A542000D590F /* PautaItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD11272479A542000D590F /* PautaItemViewModel.swift */; };
+		CCBD112A2479A74B000D590F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD11292479A74B000D590F /* Observable.swift */; };
+		CCBD112C2479B838000D590F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD112B2479B838000D590F /* Cancellable.swift */; };
+		CCBD112E2479C4DE000D590F /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD112D2479C4DE000D590F /* Alertable.swift */; };
+		CCBD11302479F47B000D590F /* UITapGestureRecognizer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD112F2479F47B000D590F /* UITapGestureRecognizer+Extensions.swift */; };
+		CCBD1132247A0F43000D590F /* CadastroPautaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD1131247A0F43000D590F /* CadastroPautaViewModel.swift */; };
+		CCBD1134247A0FEF000D590F /* ViewModelLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD1133247A0FEF000D590F /* ViewModelLoading.swift */; };
+		CCBD1136247A11FB000D590F /* CadastroPauta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD1135247A11FB000D590F /* CadastroPauta.swift */; };
+		CCBD1139247A1989000D590F /* CadastroPautaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBD1138247A1989000D590F /* CadastroPautaViewController.swift */; };
+		CCD0F1A4247A96A400E3390A /* BindingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F1A3247A96A400E3390A /* BindingTextView.swift */; };
+		CCD0F1A6247AD4FA00E3390A /* UserValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F1A5247AD4FA00E3390A /* UserValues.swift */; };
+		CCD0F1A8247AF85B00E3390A /* DecodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F1A7247AF85B00E3390A /* DecodeData.swift */; };
+		CCD0F1AA247AFFBC00E3390A /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F1A9247AFFBC00E3390A /* Encodable+Extensions.swift */; };
+		CCD0F1B1247B4F5600E3390A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F1B0247B4F5600E3390A /* UIViewController+Extensions.swift */; };
+		D5963A583AAAE5A8A8BEEDF3 /* Pods_Pautas_Control_Pautas_ControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07B892E99D944B3C11FE0BE /* Pods_Pautas_Control_Pautas_ControlUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB3375A247189BA0093D52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB33738247189B90093D52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB3373F247189B90093D52B;
+			remoteInfo = "Pautas Control";
+		};
+		CCB33765247189BB0093D52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB33738247189B90093D52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB3373F247189B90093D52B;
+			remoteInfo = "Pautas Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CD9646AE314E2FF71FCA52 /* Pods-Pautas Control-Pautas ControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas Control-Pautas ControlUITests.release.xcconfig"; path = "Target Support Files/Pods-Pautas Control-Pautas ControlUITests/Pods-Pautas Control-Pautas ControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F4828A589BB22EC3CFB21DE /* Pods_Pautas_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pautas_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B427B1FA14B46ABECC9FA9 /* Pods_Pautas_ControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pautas_ControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C275CCF7D2199DF65676CD /* Pods-Pautas ControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas ControlTests.debug.xcconfig"; path = "Target Support Files/Pods-Pautas ControlTests/Pods-Pautas ControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F543FDF5D9AD002122158BD /* Pods-Pautas Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas Control.release.xcconfig"; path = "Target Support Files/Pods-Pautas Control/Pods-Pautas Control.release.xcconfig"; sourceTree = "<group>"; };
+		A2E6F3801B79CA3E87595827 /* Pods-Pautas Control-Pautas ControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas Control-Pautas ControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pautas Control-Pautas ControlUITests/Pods-Pautas Control-Pautas ControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B07B892E99D944B3C11FE0BE /* Pods_Pautas_Control_Pautas_ControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pautas_Control_Pautas_ControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40F119D92F90AB2397DD604 /* Pods-Pautas ControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas ControlTests.release.xcconfig"; path = "Target Support Files/Pods-Pautas ControlTests/Pods-Pautas ControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC1EBEE22473371E00E21B9C /* InicialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicialViewController.swift; sourceTree = "<group>"; };
+		CC1EBEE4247338BE00E21B9C /* Pauta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pauta.swift; sourceTree = "<group>"; };
+		CC1EBEEA247339B900E21B9C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CC1EBEEC24733BB000E21B9C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC1EBEEE24733BBD00E21B9C /* PautasAbertasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautasAbertasViewController.swift; sourceTree = "<group>"; };
+		CC1EBEF024733BCB00E21B9C /* PautasFechadasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautasFechadasViewController.swift; sourceTree = "<group>"; };
+		CC1EBEF22473548000E21B9C /* PautaListaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautaListaViewModel.swift; sourceTree = "<group>"; };
+		CC1EBEF4247356D400E21B9C /* PautasViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautasViewCell.swift; sourceTree = "<group>"; };
+		CC1EBEF72473620B00E21B9C /* AuthFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFirebase.swift; sourceTree = "<group>"; };
+		CC1EBEFB247362FA00E21B9C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CC8275EE2471EFF600F4DD97 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		CC8275F02471F5A700F4DD97 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CC8275F22471FF7800F4DD97 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CCB33740247189B90093D52B /* Pautas Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pautas Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB33743247189B90093D52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB3374D247189B90093D52B /* Pautas_Control.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pautas_Control.xcdatamodel; sourceTree = "<group>"; };
+		CCB3374F247189BA0093D52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB33752247189BA0093D52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB33754247189BA0093D52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB33759247189BA0093D52B /* Pautas ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pautas ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB3375D247189BB0093D52B /* Pautas_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pautas_ControlTests.swift; sourceTree = "<group>"; };
+		CCB3375F247189BB0093D52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB33764247189BB0093D52B /* Pautas ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pautas ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB33768247189BB0093D52B /* Pautas_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pautas_ControlUITests.swift; sourceTree = "<group>"; };
+		CCB3376A247189BB0093D52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB3377D24718DF40093D52B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCB337812471B2E60093D52B /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		CCB337872471B6F20093D52B /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		CCB337892471B7B90093D52B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CCB3378C2471B9C40093D52B /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		CCB3378E2471BB120093D52B /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
+		CCB337902471BBDB0093D52B /* BrokenRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenRules.swift; sourceTree = "<group>"; };
+		CCB337922471BC450093D52B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CCB337962471BD920093D52B /* DynamicTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypes.swift; sourceTree = "<group>"; };
+		CCB337982471CEF20093D52B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CCB3379A2471D6CB0093D52B /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		CCB3379C2471D91F0093D52B /* ItemTextFieldFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTextFieldFormulario.swift; sourceTree = "<group>"; };
+		CCB3EC6D247744870040D43D /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		CCB3EC6F247744A20040D43D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CCB3EC71247744B90040D43D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CCB3EC73247744C20040D43D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CCB3EC74247745C10040D43D /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		CCB3EC762477558C0040D43D /* Pautas Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pautas Control.entitlements"; sourceTree = "<group>"; };
+		CCB3EC7724776CD50040D43D /* EsqueceuSenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueceuSenhaViewController.swift; sourceTree = "<group>"; };
+		CCB3EC7924776E070040D43D /* EsqueceuSenhaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueceuSenhaViewModel.swift; sourceTree = "<group>"; };
+		CCBD111F24797551000D590F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		CCBD112124799BA9000D590F /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		CCBD11272479A542000D590F /* PautaItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PautaItemViewModel.swift; sourceTree = "<group>"; };
+		CCBD11292479A74B000D590F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		CCBD112B2479B838000D590F /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		CCBD112D2479C4DE000D590F /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		CCBD112F2479F47B000D590F /* UITapGestureRecognizer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extensions.swift"; sourceTree = "<group>"; };
+		CCBD1131247A0F43000D590F /* CadastroPautaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroPautaViewModel.swift; sourceTree = "<group>"; };
+		CCBD1133247A0FEF000D590F /* ViewModelLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLoading.swift; sourceTree = "<group>"; };
+		CCBD1135247A11FB000D590F /* CadastroPauta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroPauta.swift; sourceTree = "<group>"; };
+		CCBD1138247A1989000D590F /* CadastroPautaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroPautaViewController.swift; sourceTree = "<group>"; };
+		CCD0F1A3247A96A400E3390A /* BindingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextView.swift; sourceTree = "<group>"; };
+		CCD0F1A5247AD4FA00E3390A /* UserValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserValues.swift; sourceTree = "<group>"; };
+		CCD0F1A7247AF85B00E3390A /* DecodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeData.swift; sourceTree = "<group>"; };
+		CCD0F1A9247AFFBC00E3390A /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		CCD0F1B0247B4F5600E3390A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D8B89D0B9EA85E8ADC11E960 /* Pods-Pautas Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pautas Control.debug.xcconfig"; path = "Target Support Files/Pods-Pautas Control/Pods-Pautas Control.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB3373D247189B90093D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5D2E1148B957A7F2455ECB /* Pods_Pautas_Control.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33756247189BA0093D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F9EAD3CE73DD19E887C03 /* Pods_Pautas_ControlTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33761247189BB0093D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5963A583AAAE5A8A8BEEDF3 /* Pods_Pautas_Control_Pautas_ControlUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF2E957A7D4CADBE2AEAB98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8B89D0B9EA85E8ADC11E960 /* Pods-Pautas Control.debug.xcconfig */,
+				7F543FDF5D9AD002122158BD /* Pods-Pautas Control.release.xcconfig */,
+				A2E6F3801B79CA3E87595827 /* Pods-Pautas Control-Pautas ControlUITests.debug.xcconfig */,
+				05CD9646AE314E2FF71FCA52 /* Pods-Pautas Control-Pautas ControlUITests.release.xcconfig */,
+				79C275CCF7D2199DF65676CD /* Pods-Pautas ControlTests.debug.xcconfig */,
+				C40F119D92F90AB2397DD604 /* Pods-Pautas ControlTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B9DBBC530F17F4C43DCDDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4828A589BB22EC3CFB21DE /* Pods_Pautas_Control.framework */,
+				B07B892E99D944B3C11FE0BE /* Pods_Pautas_Control_Pautas_ControlUITests.framework */,
+				68B427B1FA14B46ABECC9FA9 /* Pods_Pautas_ControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1EBEF62473579100E21B9C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				CC1EBEF72473620B00E21B9C /* AuthFirebase.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		CCB33737247189B90093D52B = {
+			isa = PBXGroup;
+			children = (
+				CCB33742247189B90093D52B /* Pautas Control */,
+				CCB3375C247189BA0093D52B /* Pautas ControlTests */,
+				CCB33767247189BB0093D52B /* Pautas ControlUITests */,
+				CCB33741247189B90093D52B /* Products */,
+				4BF2E957A7D4CADBE2AEAB98 /* Pods */,
+				6B9DBBC530F17F4C43DCDDBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB33741247189B90093D52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB33740247189B90093D52B /* Pautas Control.app */,
+				CCB33759247189BA0093D52B /* Pautas ControlTests.xctest */,
+				CCB33764247189BB0093D52B /* Pautas ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB33742247189B90093D52B /* Pautas Control */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3EC762477558C0040D43D /* Pautas Control.entitlements */,
+				CCB3377C24718C790093D52B /* Application */,
+				CCB337952471BD830093D52B /* Classes */,
+				CCB3378B2471B9620093D52B /* Controls */,
+				CCB337852471B6410093D52B /* Controllers */,
+				CCB337862471B6880093D52B /* Extensions */,
+				CC1EBEF62473579100E21B9C /* Firebase */,
+				CCB337832471B56B0093D52B /* Models */,
+				CCB337942471BC560093D52B /* Protocol */,
+				CCB337842471B6160093D52B /* View Models */,
+				CCB3EC6A2477442B0040D43D /* UI */,
+				CCB3374F247189BA0093D52B /* Assets.xcassets */,
+				CCB33751247189BA0093D52B /* LaunchScreen.storyboard */,
+				CCB33754247189BA0093D52B /* Info.plist */,
+				CCB3374C247189B90093D52B /* Pautas_Control.xcdatamodeld */,
+			);
+			path = "Pautas Control";
+			sourceTree = "<group>";
+		};
+		CCB3375C247189BA0093D52B /* Pautas ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3375D247189BB0093D52B /* Pautas_ControlTests.swift */,
+				CCB3375F247189BB0093D52B /* Info.plist */,
+			);
+			path = "Pautas ControlTests";
+			sourceTree = "<group>";
+		};
+		CCB33767247189BB0093D52B /* Pautas ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB33768247189BB0093D52B /* Pautas_ControlUITests.swift */,
+				CCB3376A247189BB0093D52B /* Info.plist */,
+			);
+			path = "Pautas ControlUITests";
+			sourceTree = "<group>";
+		};
+		CCB3377C24718C790093D52B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CCB33743247189B90093D52B /* AppDelegate.swift */,
+				CCB3EC74247745C10040D43D /* Constans.swift */,
+				CCB3377D24718DF40093D52B /* GoogleService-Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CCB337832471B56B0093D52B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCB337902471BBDB0093D52B /* BrokenRules.swift */,
+				CCB337812471B2E60093D52B /* Cadastro.swift */,
+				CCBD1135247A11FB000D590F /* CadastroPauta.swift */,
+				CC1EBEFB247362FA00E21B9C /* Login.swift */,
+				CC1EBEE4247338BE00E21B9C /* Pauta.swift */,
+				CCD0F1A5247AD4FA00E3390A /* UserValues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCB337842471B6160093D52B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0F1AB247B1F4000E3390A /* Login */,
+				CCBD11262479A38B000D590F /* Pautas */,
+				CCD0F1AE247B2B7700E3390A /* Profile */,
+				CCBD1133247A0FEF000D590F /* ViewModelLoading.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CCB337852471B6410093D52B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0F1AD247B208800E3390A /* Login */,
+				CCBD1137247A16E9000D590F /* Pautas */,
+				CCD0F1AF247B2EFC00E3390A /* Profile */,
+				CC1EBEE22473371E00E21B9C /* InicialViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCB337862471B6880093D52B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB337982471CEF20093D52B /* UIColor+Extension.swift */,
+				CCB3379A2471D6CB0093D52B /* UINavigationController+Extensions.swift */,
+				CC8275EE2471EFF600F4DD97 /* UITextField+Extensions.swift */,
+				CC8275F22471FF7800F4DD97 /* String+Extensions.swift */,
+				CCBD111F24797551000D590F /* UIFont+Extensions.swift */,
+				CCBD112124799BA9000D590F /* UILabel+Extensions.swift */,
+				CCBD112F2479F47B000D590F /* UITapGestureRecognizer+Extensions.swift */,
+				CCD0F1A9247AFFBC00E3390A /* Encodable+Extensions.swift */,
+				CCD0F1B0247B4F5600E3390A /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CCB3378B2471B9620093D52B /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3378C2471B9C40093D52B /* BindingTextField.swift */,
+				CCD0F1A3247A96A400E3390A /* BindingTextView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		CCB337942471BC560093D52B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CCB337922471BC450093D52B /* ViewModel.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CCB337952471BD830093D52B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCB337962471BD920093D52B /* DynamicTypes.swift */,
+				CCBD11292479A74B000D590F /* Observable.swift */,
+				CCBD112B2479B838000D590F /* Cancellable.swift */,
+				CCBD112D2479C4DE000D590F /* Alertable.swift */,
+				CCD0F1A7247AF85B00E3390A /* DecodeData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCB3EC6A2477442B0040D43D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3379C2471D91F0093D52B /* ItemTextFieldFormulario.swift */,
+				CCB3EC6D247744870040D43D /* Translate.swift */,
+				CCB3EC72247744B90040D43D /* Localizable.strings */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CCBD11262479A38B000D590F /* Pautas */ = {
+			isa = PBXGroup;
+			children = (
+				CCBD11272479A542000D590F /* PautaItemViewModel.swift */,
+				CC1EBEF22473548000E21B9C /* PautaListaViewModel.swift */,
+				CCBD1131247A0F43000D590F /* CadastroPautaViewModel.swift */,
+			);
+			path = Pautas;
+			sourceTree = "<group>";
+		};
+		CCBD1137247A16E9000D590F /* Pautas */ = {
+			isa = PBXGroup;
+			children = (
+				CC1EBEEE24733BBD00E21B9C /* PautasAbertasViewController.swift */,
+				CC1EBEF024733BCB00E21B9C /* PautasFechadasViewController.swift */,
+				CC1EBEF4247356D400E21B9C /* PautasViewCell.swift */,
+				CCBD1138247A1989000D590F /* CadastroPautaViewController.swift */,
+			);
+			path = Pautas;
+			sourceTree = "<group>";
+		};
+		CCD0F1AB247B1F4000E3390A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3378E2471BB120093D52B /* CadastroViewModel.swift */,
+				CCB3EC7924776E070040D43D /* EsqueceuSenhaViewModel.swift */,
+				CC8275F02471F5A700F4DD97 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CCD0F1AD247B208800E3390A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CCB337872471B6F20093D52B /* CadastroViewController.swift */,
+				CCB3EC7724776CD50040D43D /* EsqueceuSenhaViewController.swift */,
+				CCB337892471B7B90093D52B /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CCD0F1AE247B2B7700E3390A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC1EBEEA247339B900E21B9C /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CCD0F1AF247B2EFC00E3390A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC1EBEEC24733BB000E21B9C /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB3373F247189B90093D52B /* Pautas Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB3376D247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas Control" */;
+			buildPhases = (
+				AD223FF6FC6EA0A286E710DA /* [CP] Check Pods Manifest.lock */,
+				CCB3373C247189B90093D52B /* Sources */,
+				CCB3373D247189B90093D52B /* Frameworks */,
+				CCB3373E247189B90093D52B /* Resources */,
+				95F704E3927AD54F3CE12104 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pautas Control";
+			productName = "Pautas Control";
+			productReference = CCB33740247189B90093D52B /* Pautas Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB33758247189BA0093D52B /* Pautas ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB33770247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas ControlTests" */;
+			buildPhases = (
+				CFB009ECCF880D985DED5D8F /* [CP] Check Pods Manifest.lock */,
+				CCB33755247189BA0093D52B /* Sources */,
+				CCB33756247189BA0093D52B /* Frameworks */,
+				CCB33757247189BA0093D52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB3375B247189BA0093D52B /* PBXTargetDependency */,
+			);
+			name = "Pautas ControlTests";
+			productName = "Pautas ControlTests";
+			productReference = CCB33759247189BA0093D52B /* Pautas ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB33763247189BB0093D52B /* Pautas ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB33773247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas ControlUITests" */;
+			buildPhases = (
+				0D2263BAF843E8819D3BF5F4 /* [CP] Check Pods Manifest.lock */,
+				CCB33760247189BB0093D52B /* Sources */,
+				CCB33761247189BB0093D52B /* Frameworks */,
+				CCB33762247189BB0093D52B /* Resources */,
+				B29012800F62AD1262928ADF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB33766247189BB0093D52B /* PBXTargetDependency */,
+			);
+			name = "Pautas ControlUITests";
+			productName = "Pautas ControlUITests";
+			productReference = CCB33764247189BB0093D52B /* Pautas ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB33738247189B90093D52B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "João Vitor Duarte Mariucio";
+				TargetAttributes = {
+					CCB3373F247189B90093D52B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCB33758247189BA0093D52B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCB3373F247189B90093D52B;
+					};
+					CCB33763247189BB0093D52B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCB3373F247189B90093D52B;
+					};
+				};
+			};
+			buildConfigurationList = CCB3373B247189B90093D52B /* Build configuration list for PBXProject "Pautas Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = CCB33737247189B90093D52B;
+			productRefGroup = CCB33741247189B90093D52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB3373F247189B90093D52B /* Pautas Control */,
+				CCB33758247189BA0093D52B /* Pautas ControlTests */,
+				CCB33763247189BB0093D52B /* Pautas ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB3373E247189B90093D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB33753247189BA0093D52B /* LaunchScreen.storyboard in Resources */,
+				CCB3EC70247744B90040D43D /* Localizable.strings in Resources */,
+				CCB33750247189BA0093D52B /* Assets.xcassets in Resources */,
+				CCB3377E24718DF40093D52B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33757247189BA0093D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33762247189BB0093D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2263BAF843E8819D3BF5F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pautas Control-Pautas ControlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F704E3927AD54F3CE12104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pautas Control/Pods-Pautas Control-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pautas Control/Pods-Pautas Control-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pautas Control/Pods-Pautas Control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD223FF6FC6EA0A286E710DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pautas Control-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29012800F62AD1262928ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pautas Control-Pautas ControlUITests/Pods-Pautas Control-Pautas ControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pautas Control-Pautas ControlUITests/Pods-Pautas Control-Pautas ControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pautas Control-Pautas ControlUITests/Pods-Pautas Control-Pautas ControlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB009ECCF880D985DED5D8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pautas ControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB3373C247189B90093D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0F1B1247B4F5600E3390A /* UIViewController+Extensions.swift in Sources */,
+				CCB337912471BBDB0093D52B /* BrokenRules.swift in Sources */,
+				CCB3379B2471D6CB0093D52B /* UINavigationController+Extensions.swift in Sources */,
+				CCBD112224799BA9000D590F /* UILabel+Extensions.swift in Sources */,
+				CCB3EC75247745C10040D43D /* Constans.swift in Sources */,
+				CCBD112A2479A74B000D590F /* Observable.swift in Sources */,
+				CC8275F32471FF7800F4DD97 /* String+Extensions.swift in Sources */,
+				CCB337992471CEF20093D52B /* UIColor+Extension.swift in Sources */,
+				CC8275EF2471EFF600F4DD97 /* UITextField+Extensions.swift in Sources */,
+				CC1EBEF124733BCB00E21B9C /* PautasFechadasViewController.swift in Sources */,
+				CC1EBEEB247339B900E21B9C /* ProfileViewModel.swift in Sources */,
+				CCBD112C2479B838000D590F /* Cancellable.swift in Sources */,
+				CC1EBEFC247362FA00E21B9C /* Login.swift in Sources */,
+				CCBD1136247A11FB000D590F /* CadastroPauta.swift in Sources */,
+				CC1EBEED24733BB000E21B9C /* ProfileViewController.swift in Sources */,
+				CC1EBEF5247356D400E21B9C /* PautasViewCell.swift in Sources */,
+				CCD0F1A6247AD4FA00E3390A /* UserValues.swift in Sources */,
+				CCBD11282479A542000D590F /* PautaItemViewModel.swift in Sources */,
+				CCB3378A2471B7B90093D52B /* LoginViewController.swift in Sources */,
+				CCB337932471BC450093D52B /* ViewModel.swift in Sources */,
+				CCB3378D2471B9C40093D52B /* BindingTextField.swift in Sources */,
+				CCB3EC7824776CD50040D43D /* EsqueceuSenhaViewController.swift in Sources */,
+				CCBD112024797551000D590F /* UIFont+Extensions.swift in Sources */,
+				CCD0F1AA247AFFBC00E3390A /* Encodable+Extensions.swift in Sources */,
+				CCD0F1A4247A96A400E3390A /* BindingTextView.swift in Sources */,
+				CCBD1134247A0FEF000D590F /* ViewModelLoading.swift in Sources */,
+				CC1EBEE32473371E00E21B9C /* InicialViewController.swift in Sources */,
+				CCB3EC7A24776E070040D43D /* EsqueceuSenhaViewModel.swift in Sources */,
+				CCB3378F2471BB120093D52B /* CadastroViewModel.swift in Sources */,
+				CC1EBEF82473620B00E21B9C /* AuthFirebase.swift in Sources */,
+				CC8275F12471F5A700F4DD97 /* LoginViewModel.swift in Sources */,
+				CCD0F1A8247AF85B00E3390A /* DecodeData.swift in Sources */,
+				CCB337822471B2E60093D52B /* Cadastro.swift in Sources */,
+				CCBD11302479F47B000D590F /* UITapGestureRecognizer+Extensions.swift in Sources */,
+				CCB3374E247189B90093D52B /* Pautas_Control.xcdatamodeld in Sources */,
+				CCB337972471BD920093D52B /* DynamicTypes.swift in Sources */,
+				CCBD1132247A0F43000D590F /* CadastroPautaViewModel.swift in Sources */,
+				CCBD112E2479C4DE000D590F /* Alertable.swift in Sources */,
+				CCB3379D2471D91F0093D52B /* ItemTextFieldFormulario.swift in Sources */,
+				CCB337882471B6F20093D52B /* CadastroViewController.swift in Sources */,
+				CC1EBEF32473548000E21B9C /* PautaListaViewModel.swift in Sources */,
+				CCB3EC6E247744870040D43D /* Translate.swift in Sources */,
+				CCB33744247189B90093D52B /* AppDelegate.swift in Sources */,
+				CC1EBEEF24733BBD00E21B9C /* PautasAbertasViewController.swift in Sources */,
+				CCBD1139247A1989000D590F /* CadastroPautaViewController.swift in Sources */,
+				CC1EBEE5247338BE00E21B9C /* Pauta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33755247189BA0093D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB3375E247189BB0093D52B /* Pautas_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB33760247189BB0093D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB33769247189BB0093D52B /* Pautas_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB3375B247189BA0093D52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB3373F247189B90093D52B /* Pautas Control */;
+			targetProxy = CCB3375A247189BA0093D52B /* PBXContainerItemProxy */;
+		};
+		CCB33766247189BB0093D52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB3373F247189B90093D52B /* Pautas Control */;
+			targetProxy = CCB33765247189BB0093D52B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB33751247189BA0093D52B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB33752247189BA0093D52B /* Base */,
+				CCB3EC6F247744A20040D43D /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB3EC72247744B90040D43D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB3EC71247744B90040D43D /* en */,
+				CCB3EC73247744C20040D43D /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB3376B247189BB0093D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB3376C247189BB0093D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB3376E247189BB0093D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B89D0B9EA85E8ADC11E960 /* Pods-Pautas Control.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pautas Control/Pautas Control.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9W37J98SZ;
+				INFOPLIST_FILE = "Pautas Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaoduarte.pautas.control.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB3376F247189BB0093D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F543FDF5D9AD002122158BD /* Pods-Pautas Control.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pautas Control/Pautas Control.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9W37J98SZ;
+				INFOPLIST_FILE = "Pautas Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaoduarte.pautas.control.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCB33771247189BB0093D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C275CCF7D2199DF65676CD /* Pods-Pautas ControlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pautas ControlTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.pautas.control.mobile.Pautas-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pautas Control.app/Pautas Control";
+			};
+			name = Debug;
+		};
+		CCB33772247189BB0093D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40F119D92F90AB2397DD604 /* Pods-Pautas ControlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pautas ControlTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.pautas.control.mobile.Pautas-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pautas Control.app/Pautas Control";
+			};
+			name = Release;
+		};
+		CCB33774247189BB0093D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E6F3801B79CA3E87595827 /* Pods-Pautas Control-Pautas ControlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pautas ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.pautas.control.mobile.Pautas-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pautas Control";
+			};
+			name = Debug;
+		};
+		CCB33775247189BB0093D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD9646AE314E2FF71FCA52 /* Pods-Pautas Control-Pautas ControlUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pautas ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.pautas.control.mobile.Pautas-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pautas Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB3373B247189B90093D52B /* Build configuration list for PBXProject "Pautas Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB3376B247189BB0093D52B /* Debug */,
+				CCB3376C247189BB0093D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB3376D247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB3376E247189BB0093D52B /* Debug */,
+				CCB3376F247189BB0093D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB33770247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB33771247189BB0093D52B /* Debug */,
+				CCB33772247189BB0093D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB33773247189BB0093D52B /* Build configuration list for PBXNativeTarget "Pautas ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB33774247189BB0093D52B /* Debug */,
+				CCB33775247189BB0093D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCB3374C247189B90093D52B /* Pautas_Control.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCB3374D247189B90093D52B /* Pautas_Control.xcdatamodel */,
+			);
+			currentVersion = CCB3374D247189B90093D52B /* Pautas_Control.xcdatamodel */;
+			path = Pautas_Control.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCB33738247189B90093D52B /* Project object */;
+}

@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  Pautas Control
+
+  Created by João Vitor Duarte Mariucio on 21/05/20.
+  Copyright © 2020 João Vitor Duarte Mariucio. All rights reserved.
+*/
+
+//  MARK: - Tela login
+"seja_bem_vindo" = "Welcome";
+"seja_bem_vindo_detalhes" = "Login to your ** account";
+"processando_login" = "Processing login...";
+"esqueceu_sua_senha" = "Forgot your password?";
+"error_email_invalido" = "The E-mail provided is not registered in the system, please register before logging in";
+"error_senha_invalida" = "The password entered is invalid, check the password and try again";
+"error_nao_tratado" = "Something went wrong, check your internet connection.";
+
+// MARK: - Tela esqueceu senha
+"enviar_email" = "SUBMIT";
+"esqueceu_sua_senha_detalhes" = "Don't worry, put your email in the field below and click on submit and you'll receive an email in a moment to recover your password.";
+"enviando_reset_senha" = "Sending email to reset password...";
+"email_recuperacao_enviado" ="The recovery email was sent successfully";
+
+//  MARK: - Tela cadastro
+"vamos_comecar" = "Let's start";
+"vamos_comecar_detalhes" = "Create an account at ** to get all the features";
+"nome" = "Name";
+"email" = "Email";
+"senha" = "Password";
+"confirmar_senha" = "Confirm your password";
+"criar_conta" = "CREATE ACCOUNT";
+"criando_seu_login" = "Creating your login";
+"cadastrado_com_sucesso" = "User registered successfully";
+"error_cadastrar_verifique_email" = "Error when registering, check if the e-mail informed is valid";
+"error_nome_nao_preenchido" = "The Name field must be filled";
+"error_email_senha_nao_preenchido" = "The e-mail and password fields must be filled";
+"error_email_nao_preenchido" = "The E-mail field must be filled";
+"error_email_nao_valido" = "The e-mail field must be filled in with a valid e-mail";
+"error_senha_nao_preenchido" = "The Password field must be filled";
+"error_confirmar_senha_nao_preenchido" = "The Confirm password field must be filled";
+"error_senha_nao_igual" = "The password entered in the password field is different from the password entered in the confirm password field !!!";
+"error_senha_muito_curta" = "The password entered is too short inform a password of at least 8 characters";
+
+// MARK: - Tela pautas abertas
+"pautas_abertas"= "Open guidelines";
+"pautas_abertas_detalhes"= "All your guidelines open";
+"finalizar" = "Finish";
+
+// MARK: - Tela pautas fechadas
+"pautas_fechadas"= "Finished guidelines";
+"pautas_fechadas_detalhes"= "All your finalized guidelines";
+"reabrir" = "Reopen";
+
+// MARK: - Tela cadastro pauta
+"cadastro_pauta" = "Register guideline";
+"cadastro_pauta_detalhes" = "Fill in all fields to release the registration";
+"title" = "Title";
+"breve_descricao" = "Brief description";
+"detalhes" = "Details of your guideline";
+"finaliza_cadastro" = "Finalize registration";
+"error_salvar_tente_novamente" = "Error saving your guideline please try again later";
+"salvando_pauta" = "Saving your guideline please wait ...";
+"pauta_salva_com_suceeso" = "Your guideline has been successfully saved!!!";
+"autor" = "Autor";
+
+// MARK: - Perfil
+"perfil" = "Profile";
+"deslogar" = "Log out";

@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  Pautas Control
+
+  Created by João Vitor Duarte Mariucio on 21/05/20.
+  Copyright © 2020 João Vitor Duarte Mariucio. All rights reserved.
+*/
+
+//  MARK: - Tela login
+"seja_bem_vindo" = "Seja bem-vindo";
+"seja_bem_vindo_detalhes"= "Entre na sua conta do **";
+"processando_login" = "Processando login...";
+"esqueceu_sua_senha" = "Esqueceu sua senha?";
+"error_email_invalido" = "O E-mail informado não está cadastrado no sistema, por favor cadastre-se antes de fazer login";
+"error_senha_invalida" = "A senha informada é invalida, verifique a senha e tente novamente.";
+"error_nao_tratado" = "Algo deu errado, verifique sua conexão com a internet";
+
+// MARK: - Tela esqueceu senha
+"enviar_email" = "ENVIAR";
+"esqueceu_sua_senha_detalhes" = "Não se preocupe coloque seu e-mail no campo abaixo e clique em enviar e receberá em instantes um e-mail para recuperar sua senha.";
+"enviando_reset_senha" = "Enviando email para resetar senha...";
+"email_recuperacao_enviado" = "O e-mail de recuperação foi enviado com sucesso";
+
+//  MARK: - Tela cadastro
+"vamos_comecar" = "Vamos começar";
+"vamos_comecar_detalhes" = "Crie uma conta no ** para obter todos os recursos";
+"nome" = "Nome";
+"email" = "E-mail";
+"senha" = "Senha";
+"confirmar_senha" = "Confirme sua senha";
+"criar_conta" = "CRIAR CONTA";
+"criando_seu_login" = "Criando seu login";
+"cadastrado_com_sucesso" = "Usuário cadastrado com sucesso";
+"error_cadastrar_verifique_email" = "Erro ao cadastrar-se verifique se o e-email informado é válido";
+"error_nome_nao_preenchido" = "O campo Nome deve ser preenchido";
+"error_email_senha_nao_preenchido" = "Os campos de e-mail e senha devem ser preenchidos";
+"error_email_nao_preenchido" = "O campo E-mail deve ser preenchido";
+"error_email_nao_valido" = "O campo e-mail deve ser preenchido com um e-mail válido";
+"error_senha_nao_preenchido" = "O campo Senha deve ser preenchido";
+"error_confirmar_senha_nao_preenchido" = "O campo Confirmar senha deve ser preenchido";
+"error_senha_nao_igual" = "A senha informada no campo senha é diferente da senha informada no campo confirmar senha!!!";
+"error_senha_muito_curta" = "A senha informada é muito curta informe uma senha de no minimo 8 caracteres";
+
+// MARK: - Tela pautas abertas
+"pautas_abertas"= "Pautas abertas";
+"pautas_abertas_detalhes"= "Todas suas pautas abertas";
+"finalizar" = "Finalizar";
+
+// MARK: - Tela pautas fechadas
+"pautas_fechadas"= "Pautas finalizadas";
+"pautas_fechadas_detalhes"= "Todas suas pautas finalizadas";
+"reabrir" = "Reabrir";
+
+// MARK: - Tela cadastro pauta
+"cadastro_pauta" = "Cadastro pauta";
+"cadastro_pauta_detalhes" = "Preencha todos os campos para liberar o cadastro";
+"title" = "Título";
+"breve_descricao" = "Breve descrição";
+"detalhes" = "Detalhes da sua pauta";
+"finaliza_cadastro" = "Finalizar cadastro";
+"error_salvar_tente_novamente" = "Erro ao salvar sua pauta tente novamente mais tarde";
+"salvando_pauta" = "Salvando sua pauta aguarde...";
+"pauta_salva_com_suceeso" = "Sua pauta foi salva com sucesso!!!";
+"autor" = "Author";
+
+// MARK: - Perfil
+"perfil" = "Perfil";
+"deslogar" = "Deslogar";
