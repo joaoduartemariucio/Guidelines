@@ -10,7 +10,7 @@ import Foundation
 
 struct Constants {
     
-    static let APP_NAME = "Pautas Control"
+    static let APP_NAME = "Guidelines"
     
     struct Forkeys {
         
