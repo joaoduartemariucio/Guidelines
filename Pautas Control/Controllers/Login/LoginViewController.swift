@@ -13,7 +13,7 @@ class LoginViewController: UIViewController, NVActivityIndicatorViewable, Alerta
     
 //    MARK: - Atributos
     private var viewModel: LoginViewModel = LoginViewModel()
-    let lateralMargins = UIScreen.main.bounds.width * 0.05
+    let lateralMargins = UIScreen.main.bounds.width * 0.10
     let activityData = ActivityData()
     
 //    MARK: - Componentes
