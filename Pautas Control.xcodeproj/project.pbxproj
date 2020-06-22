@@ -103,7 +103,7 @@
 		CC8275EE2471EFF600F4DD97 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		CC8275F02471F5A700F4DD97 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CC8275F22471FF7800F4DD97 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		CCB33740247189B90093D52B /* Pautas Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pautas Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB33740247189B90093D52B /* Guidelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidelines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB33743247189B90093D52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB3374D247189B90093D52B /* Pautas_Control.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pautas_Control.xcdatamodel; sourceTree = "<group>"; };
 		CCB3374F247189BA0093D52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 		CCB33741247189B90093D52B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCB33740247189B90093D52B /* Pautas Control.app */,
+				CCB33740247189B90093D52B /* Guidelines.app */,
 				CCB33759247189BA0093D52B /* Pautas ControlTests.xctest */,
 				CCB33764247189BB0093D52B /* Pautas ControlUITests.xctest */,
 			);
@@ -451,7 +451,7 @@
 			);
 			name = "Pautas Control";
 			productName = "Pautas Control";
-			productReference = CCB33740247189B90093D52B /* Pautas Control.app */;
+			productReference = CCB33740247189B90093D52B /* Guidelines.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CCB33758247189BA0093D52B /* Pautas ControlTests */ = {
@@ -898,8 +898,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pautas Control/Pautas Control.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9W37J98SZ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Pautas Control/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -907,7 +907,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaoduarte.pautas.control.mobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Guidelines;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -921,8 +921,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pautas Control/Pautas Control.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9W37J98SZ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Pautas Control/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -930,7 +930,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.joaoduarte.pautas.control.mobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Guidelines;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

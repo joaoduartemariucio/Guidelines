@@ -61,7 +61,7 @@
 "error_salvar_tente_novamente" = "Error saving your guideline please try again later";
 "salvando_pauta" = "Saving your guideline please wait ...";
 "pauta_salva_com_suceeso" = "Your guideline has been successfully saved!!!";
-"autor" = "Autor";
+"autor" = "Author";
 
 // MARK: - Perfil
 "perfil" = "Profile";
