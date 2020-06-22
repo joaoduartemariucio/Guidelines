@@ -30,7 +30,6 @@ Rode o comando para instalar as dependencias:
 
 ```
 pod install
-
 ```
 
 ### Passo 2
@@ -40,7 +39,6 @@ digite o comando abaixo:
 
 ```
 open Pautas\ Control.xcworkspace
-
 ```
 
 Se tiver duvidas entre em contato por e-mail joaovitorduartemariucio@gmail.com
