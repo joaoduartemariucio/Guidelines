@@ -52,7 +52,7 @@ Se tiver duvidas entre em contato por e-mail joaovitorduartemariucio@gmail.com
 
 ## MIT License
 
-Copyright (c) 2020 Joao Vitor Duarte Mariucios
+Copyright (c) 2020 João Vitor Duarte Mariucios
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
