@@ -5,11 +5,6 @@
 
 Eu o criei para mostrar meus conhecimentos em Swift escolhi a estrutura MVVM de inicio eu ainda não implementei testes unitários e nem libs para melhorar o desempenho do aplicativo na estrutura escolhida, mas isso está nos planos, o tempo de execução vai variar do meu tempo livre.
 
-## Telas
-
-![ScreenShot](https://raw.githubusercontent.com/joaoduartemariucio/Guidelines/master/telas/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-06-22%20at%2019.18.35.png)
-
-
 ## Requisitos 
 
 Antes de começar certifique que possui esses itens:
